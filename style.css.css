@@ -1,0 +1,80 @@
+body {
+    font-family: 'Comic Sans MS', serif, cursive; /* Основной шрифт страницы */
+    margin: 0; /* Убираем отступы браузера */
+    background-color: #fadf96; /* Светлый фон */
+    color: #d3135d; /* Основной цвет текста */
+}
+
+/* === ШАПКА === */
+header {
+    background-color: #d3135d; /*  фон */
+    color: white; /* Белый текст */
+    text-align: center; /* Выравнивание по центру */
+    padding: 30px 20px; /* Внутренние отступы */
+    border-radius: 0 0 20px 20px; /* Скругление нижних углов */
+    box-shadow: 0 10px 10px 5px #ffffff65;
+}
+/* === НАВИГАЦИЯ === */
+nav {
+    display: flex;
+    flex-direction: column; /* Располагаем элементы вертикально */
+    align-items: center; /* Выравниваем по центру */
+    gap: 10px; /* Расстояние между элементами */
+    background-color: #ff88ac;
+    padding: 10px 0;
+    width: 50%;
+    margin: 25px auto;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px 10px #ffffff65;
+}
+
+nav h2 { /* Стили для видимого заголовка */
+    margin: 0; /* Убираем стандартные отступы */
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 5px; /* Немного отступа под заголовком */
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #b30045;
+}
+
+.container {
+    width: 90%; /* Ширина контейнера, можно изменить */
+    max-width: 1000px; /* Максимальная ширина, чтобы на больших экранах не растягивалось */
+    margin: 20px auto; /* Центрирование контейнера и небольшой отступ сверху/снизу */
+    padding: 20px; /* Внутренние отступы */
+    box-sizing: border-box; /* Чтобы padding не добавлялся к ширине */
+}
+.recipe {
+    background-color: #fff; /* Белый фон для каждого рецепта */
+    border: 1px solid #ddd; /* Тонкая серая рамка */
+    border-radius: 8px; /* Скругленные углы */
+    margin-bottom: 25px; /* Отступ между рецептами */
+    padding: 20px; /* Внутренние отступы внутри каждого рецепта */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Легкая тень для объема */
+    text-align: left; /* Текст будет выровнен по левому краю */
+}
+.recipe img {
+display: block;
+width: 90%;
+max-width: 400px;
+height: auto;
+margin: 15px auto;
+border-radius: 10px;
+box-shadow: 0px 0px 20px 10px #ff6ca965
+}
+
+.footer {
+    text-align: center;
+    margin: 100px auto 10px auto;
+    border-top: 1px solid #b300455d;
+    padding-top: 15px;
+}
